@@ -8,3 +8,8 @@ http://stackoverflow.com/questions/460297/git-finding-the-sha1-of-an-individual-
 
 
 It seems that the whole "blob content-size\0CONTENT" is a newer format. Old git stored it as the direct hash. If git implements a compatibility layer....?
+
+If you ever got "lucky" enough, this would be your "prize"!
+https://github.com/git/git/blob/1d1bdafd64266e5ee3bd46c6965228f32e4022ea/builtin/index-pack.c#L745
+
+"SHA1 COLLISION FOUND WITH ____!"
